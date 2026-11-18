@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Артефакты обучения
+checkpoints/
+*.pt
+runs/
+
+# Данные: оставляем только стартовый сэмпл
+data/*
+!data/train.txt
+
+# Секреты
+.env
+.env.*
